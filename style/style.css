@@ -5,13 +5,14 @@
 }
 
 body {
-    height: 100vh;
-    width: 100vw;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #191919;
+    color: white;
 }
 
 canvas {
-    background-color: black;
+    background-color: #111;
 }
